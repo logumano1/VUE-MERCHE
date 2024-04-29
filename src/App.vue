@@ -1,10 +1,13 @@
 <script setup>
-
+import NavegBar from './components/NavegBar.vue';
+import MenuMio from './components/MenuMio.vue'
+import TeamSection from './components/TeamSection.vue';
 </script>
 
 <template>
- <h1 class="font-bold text-xl text-red-600 underline">
-    Hello world!
-  </h1> 
+  
+ <NavegBar />
+ <MenuMio />
+ <TeamSection />
 </template>
 
