@@ -1,13 +1,15 @@
 <script setup>
-import NavegBar from './components/NavegBar.vue';
-import MenuMio from './components/MenuMio.vue'
-import TeamSection from './components/TeamSection.vue';
+// import NavegBar from './components/NavegBar.vue';
+// import TeamSection from './components/TeamSection.vue';
+import StoreNav from './components/StoreNav.vue';
+import ProductList from './components/ProductList.vue';
 </script>
 
 <template>
   
- <NavegBar />
- <MenuMio />
- <TeamSection />
+ <!-- <NavegBar />
+ <TeamSection /> -->
+ <StoreNav />
+ <ProductList />
 </template>
 
