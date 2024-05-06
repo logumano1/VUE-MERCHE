@@ -13,9 +13,9 @@
   ```
 -->
 <template>
-    <div class="bg-white">
+    <div class="bg-white" id="fruta">
       <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-        <h2 class="text-2xl font-bold tracking-tight text-gray-900">Los más vendidos</h2>
+        <h2 class="text-2xl font-bold tracking-tight text-gray-900">Frutas</h2>
   
         <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
           <div v-for="product in products" :key="product.id" class="group relative">
@@ -53,12 +53,12 @@
     },
     {
       id: 2,
-      name: 'Puerros',
+      name: 'Kiwi',
       href: '#',
-      imageSrc: 'https://supernormal.es/cdn/shop/products/puerros_6e85f6d1-b59f-4b7d-973c-384f8a5cf84f.jpg?v=1681745547&width=1200',
+      imageSrc: 'https://supernormal.es/cdn/shop/products/kiwi.jpg?v=1681746430&width=1200',
       imageAlt: "Front of men's Basic Tee in black.",
       price: '$3,71/kg',
-      color: 'Ecológico',
+      color: 'Golden',
     },
     {
       id: 3,
@@ -76,31 +76,31 @@
       imageSrc: 'https://supernormal.es/cdn/shop/files/platanos.png?v=1699447050&width=1200',
       imageAlt: "Front of men's Basic Tee in black.",
       price: '$5,65/kg',
-      color: 'Ecológico',
+      color: 'Ecológicos',
     },
     {
       id: 5,
-      name: 'Patatas',
+      name: 'Frambuesas',
       href: '#',
-      imageSrc: 'https://supernormal.es/cdn/shop/products/patatastipo1_879fccfc-9b0a-43f9-97a8-7363d0974069.jpg?v=1679934838&width=1200',
+      imageSrc: 'https://supernormal.es/cdn/shop/files/frambuesas_785c576a-d5b2-4a59-8579-7cb54c2a6452.jpg?v=1692628546&width=1200',
       imageAlt: "Front of men's Basic Tee in black.",
       price: '$4,72/kg',
       color: 'Ecológico',
     },
     {
       id: 6,
-      name: 'Cebollas',
+      name: 'Arándanos',
       href: '#',
-      imageSrc: 'https://supernormal.es/cdn/shop/products/cebollas1.jpg?v=1679933519&width=1200',
+      imageSrc: 'https://supernormal.es/cdn/shop/files/arandanos.png?v=1686916112&width=1200',
       imageAlt: "Front of men's Basic Tee in black.",
       price: '$6,21/kg',
       color: 'Ecológico',
     },
     {
       id: 7,
-      name: 'Judías verdes',
+      name: 'Manzana Royal Gala',
       href: '#',
-      imageSrc: 'https://supernormal.es/cdn/shop/products/judiasverdes.jpg?v=1681745217&width=1200',
+      imageSrc: 'https://supernormal.es/cdn/shop/files/manzanagala.png?v=1699009204&width=1200',
       imageAlt: "Front of men's Basic Tee in black.",
       price: '$3,12/kg',
       color: 'Ecológico',
@@ -112,7 +112,7 @@
       imageSrc: 'https://supernormal.es/cdn/shop/products/limonescaja.jpg?v=1679935698&width=1200',
       imageAlt: "Front of men's Basic Tee in black.",
       price: '$3.95/kg',
-      color: 'Ecológico',
+      color: 'Ecológicos',
     },
     // More products...
   ]
